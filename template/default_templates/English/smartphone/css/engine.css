@@ -1,0 +1,63 @@
+form {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin: 0px;
+}
+#loading-layer {
+  display:none;
+  font-family:verdana;font-size: 11px;
+  background:#000;padding:10px;
+  text-align:center;
+  border:1px solid #000;
+  color: #FFF;
+}
+
+.findrelated {
+  width:99%;
+  background: #ffc;border:1px solid #9E9E9E;
+  padding: 5px;margin-top: 7px;
+  margin-right: 10px;
+}
+
+.title_quote {
+  color: #636363;
+  background-color: #f2f2f2;
+  border: 1px dotted #bebebe;
+  border-bottom: 0;
+  font-weight: bold;
+  padding: 5px;
+}
+.quote {
+  color: #757575;
+  background-color: #f2f2f2;
+  border: 1px dotted #bebebe;
+  text-align: justify;
+  padding: 5px;
+}
+
+.title_spoiler {
+  color: #636363;
+  background-color: #f2f2f2;
+  border: 1px dotted #bebebe;
+  font-weight: bold;
+  padding: 5px;
+}
+.text_spoiler {
+  color: #757575;
+  background-color: #f2f2f2;
+  border: 1px dotted #bebebe;
+  border-top: 0;
+  text-align: justify;
+  padding: 5px;
+}
+
+pre code { display: block; padding: 0.5em; background: #f9fafa; border: 1px solid #dce7e7; overflow:auto; white-space: pre; }
+
+.hljs-comment, hljs-quote {
+  color: #a0a1a7;
+  font-style: italic;
+}
+
+.hljs-doctag, hljs-keyword, .hljs-formula {}
