@@ -60,4 +60,142 @@ pre code { display: block; padding: 0.5em; background: #f9fafa; border: 1px soli
   font-style: italic;
 }
 
-.hljs-doctag, hljs-keyword, .hljs-formula {}
+.hljs-doctag, hljs-keyword, .hljs-formula {
+  color: #a626a4;
+}
+
+.hljs-section, .hljs-name, .hljs-selector-tag, .hljs-deletion, .hljs-subst {
+  color: #e45649;
+}
+
+.hljs-literal {
+  color: #0184bb;
+}
+
+.hljs-string, .hljs-regexp, .hljs-addition, .hljs-attribute, .hljs-meta-string {
+  color: #50a14f;
+}
+
+.hljs-built_in, .hljs-class .hljs-title {
+  color: #c18401;
+}
+
+.hljs-attr, .hljs-variable, .hljs-template-variable, .hljs-type, .hljs-selector-class, .hljs-selector-attr,
+.hljs-selector-pseudo, .hljs-number {
+  color: #986801;
+}
+
+.hljs-symbol, .hljs-bullet, .hljs-link, .hljs-meta, .hljs-selector-id, .hljs-title {
+  color: #4078f2;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+.editor_button {
+  float: left;
+  cursor: pointer;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.editor_buttoncl {
+  float: left;
+  cursor: pointer;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-left: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+}
+.editbclose {
+  float: right;
+  cursor: pointer;
+}
+.editor_button select {
+  font-family: tahoma;
+  font-size: 11px;
+}
+.editor_button img {margin: 0; padding: 0;}
+.editbclose img {margin: 0; padding: 0;}
+.editor_button_brk {margin: 0; padding: 0;}
+
+.xfields textarea {
+  color: #757575; /* ! */
+  font-size: 11px; /* ! */
+  font-family: tahoma; /* ! */
+  background-repeat: repeat-x;
+  width: 100%;
+  height: 86px;
+  border: 1px solid #e0e0e0;
+}
+.xfields input {
+  color: #757575; /* ! */
+  font-size: 11px; /* ! */
+  font-family: tahoma; /* ! */
+
+  width: 250px;
+  height: 14px;
+  border: 1px solid #e0e0e0;
+}
+.xfields select {
+  color: #757575; /* ! */
+  font-size: 11px; /* ! */
+  font-family: tahoma; /* ! */
+  border: 1px solid #e0e0e0;
+}
+
+.xprofile textarea {
+  color: #757575; /* ! */
+  font-size: 11px; /* ! */
+  font-family: tahoma; /* ! */
+  width: 316px;
+  height: 86px;
+  border: 1px solid #e0e0e0;
+}
+.xprofile input {
+  color: #757575; /* ! */
+  font-size: 11px; /* ! */
+  font-family: tahoma; /* ! */
+  width: 250px;
+  height: 14px;
+  border: 1px solid #e0e0e0;
+}
+
+#dropmenudiv {
+  border: 1px solid #ffffff;
+  border-bottom-width: 0;
+  font: normal 10px Verdana;
+  background-color: #6497ca;
+  line-height: 20px;
+  margin: 2px;
+  opacity: 0.95;
+}
+
+#dropmenudiv a {
+  display: block;
+  text-indent: 3px;
+  text-decoration:none;
+  color: #ffffff;
+  background-color: #6497ca;
+  border: 1px solid #ffffff;
+  padding: 1px 0;
+  margin: 1px;
+  font-weight: bold;
+}
+
+#dropmenudiv a:hover {
+  background:#fdd08b;
+  color:#000000;
+}
+
+.vote {
+  color: #757575;
+}
