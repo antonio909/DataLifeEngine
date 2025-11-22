@@ -336,3 +336,42 @@ a.highslide-full-expand { background: url(../dleimages/fullexpand.gif) no-repeat
 .editorcomm .bb-editor textarea { height: 156px; }
 
 #marker-bar, #textselect_marker, #share_popup { display: none; }
+
+.image-bordered { border: 1px solid #ddd; }
+
+.image-shadows { box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px, rgb(9 30 66 / 8%) 0px 0px 0px 1px; }
+
+.image-padded { padding: 0.5rem; }
+
+.comments-user-profile { font-weight: bold; cursor: pointer; color: #3394e6; }
+
+.DLEPush { z-index: 2001; position: fixed; right: 20px; top: 20px; }
+
+@keyframes DLEPush-show { 0% { transform: translateY(100%); opacity: 0; } 100% { transform: translateY(0); opacity: 1; }}
+
+.DLEPush-notification.wrapper { animation-name: DLEPush-show; animation-duration: 1s; position: relative; display: grid; grid-template-columns: auto 1fr; align-items:center; color: #333; margin-bottom: 10px; width: 100%; max-width: 400px; box-shadow: 0 10px 15px rgb(0 0 0 / 20%); background-color: #fff; border-radius: 10px; }
+
+.DLEPush-notification .DLEPush-icon { grid-column: 1; grid-row: 1 / span 2; display: flex; align-items: center; justify-content: center; color: #fff; width: 45px; height: 100%; border-top-left-radius: 10px; border-bottom-left-radius: 10px; text-align: center; }
+
+.DLEPush-notification .DLEPush-icon svg { scale: .8; }
+
+.DLEPush-notification .DLEPush-header { font-weight: 500; grid-column: 2; grid-row: 1; font-size: 1rem; margin-left: 1rem; margin-top: .5rem; }
+.DLEPush-notification .DLEPush-header:empty { margin-top: 0; }
+
+.DLEPush-notification .DLEPush-message { grid-column: 2; grid-row: 2; font-size: .875rem; margin: 1rem; }
+
+.DLEPush-notification .DLEPush-message li, .DLEPush-notification .DLEPush-message ul { list-style-type: none; padding-left: 0; }
+
+.DLEPush-notification .DLEPush-close { position: absolute; top: 8px; right: 10px; font-weight: 300; background: none; border: 0; font-size: 1.15rem; cursor: pointer; line-height: 1; padding: 0; color: inherit; outline: 0; opacity: 0.75; }
+.pm td.pm_list, .pm th.pm_head { border-bottom: 1px solid #efefef; padding: 12px 8px; }
+table.pm, table.userstop { width: 100%; margin-bottom: 0; }
+table.pm select { width: 190px; }
+.userstop thead  td, .pm td.pm_head { border-bottom: 1px solid #efefef; font-weight: bold; }
+table.pm .navigation { border-top-width: 0; margin: 0; }
+
+.pm th { text-align: left; font-weight: 500; white-space: nowrap; }
+.pm th.pm_checkbox { text-align: center; }
+.pm_list.pm_subj, .pm_list.pm_icon, .pm_last_user { cursor: pointer; }
+.pm_list.pm_icon svg { width: 1.4rem; height: 1.4rem; vertical-align: middle; }
+
+.pm_list.pm_icon.pm-unread-image { color: #3394e6; }
