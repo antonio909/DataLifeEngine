@@ -308,3 +308,31 @@ a.highslide-full-expand { background: url(../dleimages/fullexpand.gif) no-repeat
 .clouds_medium { font-size: medium; }
 .clouds_large { font-size: large; }
 .clouds_xlarge { font-size: x-large; }
+
+.ui-widget-overlay { background: #bfbfbf; opacity:0.7; -moz-opacity:0.7; filter:alpha(opacity=70); left: 0; top: 0; right: 0; bottom: 0; position: fixed; }
+.ui-helper-clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden }
+.ui-helper-clearfix { display: inline-block }
+* html .ui-helper-clearfix { height: 1% }
+.ui-helper-clearfix { display: block }
+
+.ui-dialog { display: none; background-color: #fff; overflow: hidden; padding: 0; position: absolute; width: 300px; box-shadow: 0 0 40px 0 rgba(0,0,0,0.16); -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,0.16); -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,0.16); }
+.ui-dialog-titlebar { padding: 17px 25px 18px 25px; border-bottom: 1px solid #e6e6e6 }
+.ui-dialog-title { margin-top: 2px; float: left; font-size: 20px; font-weight: bold }
+.ui-dialog-titlebar-close .ui-icon { position: absolute; right: 18px; top: 20px; height: 31px; width: 31px; background-position: -37px -45px; }
+
+.ui-dialog .ui-dialog-content { border-top-left-radius: 0; border-top-right-radius: 0; padding: 25px; border: 0; overflow: auto; position: relative; zoom: 1; }
+.ui-dialog-content h2 { display: inline; font-size: 1em; font-weight: bold }
+.ui-dialog .ui-dialog-buttonpane { border-top: 1px solid #e6e6e6; padding: 15px 20px; text-align: right; }
+
+.ui-dialog .ui-resizable-se { bottom: 3px; height: 14px; right: 3px; width: 14px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+.ui-state-error { background: #fef1ec 50% 50% repeat-x !important; border: 1px solid #cd0a0a; color: #cd0a0a; }
+.ui-button.ui-button-icon-only.ui-dialog-titlebar-close {padding: 0;text-indent: -9999px;}
+.ui-front {z-index: 1000;}
+
+.bb-editor textarea { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; padding: 2px; border: 1px solid #bcc0c2; width: 100%; background: #fff; }
+.editorcomm .bb-editor { width: 465px; }
+.editorcomm .bb-editor textarea { height: 156px; }
+
+#marker-bar, #textselect_marker, #share_popup { display: none; }
