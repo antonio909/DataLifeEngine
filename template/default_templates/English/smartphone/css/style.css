@@ -1,0 +1,32 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, td, th, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body { word-wrap: break-word; }
+body, select, textarea, button, input { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe Emoji UI", "Segoe UI Symbol", "Noto Color Emoji"; font-size: 1rem; line-height: 1.5; color: #2a2a2a; outline: none; }
+
+a { outline: none; color: #ee4923; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img { border: 0 none; }
+a > img { vertical-align: bottom; }
+
+h1,h2,h3,h4,h5,h6 {font-weight: normal; }
+#logo-text { font-weight: bold; font-size: 39px; line-height: 43px; letter-spacing: -0.05em; }
+h2, h1 { font-size: 28px; line-height: 32px; }
+h3 { font-size: 22px; line-height: 26px; }
+h4 { font-size: 20px; line-height: 24px; }
+h5 { font-size: 16px; line-height: 20px; }
+
+.mejs-container { max-width: 100%; }
+video { max-width: 100%; }
+iframe { max-width: 100%; }
+
+textarea { overflow: auto; vertical-align: top; }
+input:focus { outline: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+button[disabled], input[disabled] { cursor: default }
+.btn, .bbcodes, .ui-button { font-weight: bold; display: inline-block; cursor: pointer; height: 37px; line-height: normal; margin: 0 2px; padding: 6px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.2); color: #fff !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2); -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2); -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2); border: 1px solid #ca1f0c; border-width: 0 0 1px 0; }
+.btn:active, .bbcodes:active, .ui-button:active { background: #f54305; box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.2); -moz-box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.2); -webkit-box-shadow: inset 0 1px 4px 0 rgba(0,0,0,0.2); }
