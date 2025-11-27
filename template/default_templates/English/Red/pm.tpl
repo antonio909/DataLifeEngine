@@ -62,3 +62,40 @@
   <div class="wrp">
     <h4 class="block_title ultrabold">{subj}</h4>
     [messages]
+    <div class="comment_com_author">
+      <div class="avatar">
+        <span class="cover" style="background-image: url({foto});">{login}</span>
+        <span class="com_decor"></span>
+      </div>
+      <div class="com_content">
+        <div class="com_info">
+          <b class="name">{author}</b>
+          [online]<span title="Online" class="status online">Online</span>[/online]
+          [offline]<span title="Offline" class="status offline">Offline</span>[/offline]
+          <span class="grey date">{date}</span>
+        </div>
+        <div class="text">
+          {text}
+          [signature]<div class="signature">--------------------<br>{signature}</div>[/signature]
+        </div>
+        <div class="com_tools">
+          <div class="com_tools_links grey">
+            <span class="edit_btn" title="Edit">
+              [pm-edit]<i></i>[/pm-edit]
+            </span>
+            [reply]<svg class="icon icon-meta_reply"><use xlink:href="#icon-meta_reply"></use></svg><span>Quote</span>[/reply]
+            [complaint]<svg class="icon icon-compl"><use xlink:href="#icon-compl"></use></svg><span>Complain</span>[/complaint]
+            [del]<svg class="icon icon-cross"><use xlink:href="#icon-cross"></use></svg><span>Extract</span>[del]
+            [ignore]<svg class="icon icon-meta_views"><use xlink:href="#icon-meta_views"></use><span>Delete</span>[ignore]
+          </div>
+        </div>
+      </div>
+    </div>
+    [/messages]
+    <div style="border-top: 1px dashed #eceded; padding: 20px 0;">
+      {editor}
+      <br><button class="btn btn-big" type="submit" name="submit" title="Reply"><b>Reply</b></button>
+    </div>
+  </div>
+</div>
+[/readpm]
