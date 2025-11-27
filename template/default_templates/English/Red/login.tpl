@@ -65,3 +65,32 @@
         <svg class="icon icon-ya"><use xlink:href="#icon-ya"></use></svg>
       </a>
       [/yandex]
+      [facebook]
+      <a href="{facebook_url}" target="_blank" class="soc_fb">
+        <svg class="icon icon-fb"><use xlink:href="#icon-fb"></use></svg>
+      </a>
+      [/facebook]
+      [google]
+      <a href="{google_url}" target="_blank" class="soc_gp">
+        <svg class="icon icon-gp"><use xlink:href="#icon-gp"></use></svg>
+      </a>
+      [/google]
+      [odnoklassniki]
+      <a href="{odnoklassniki_url}" target="_blank" class="soc_od">
+        <svg class="icon icon-od"><use xlink:href="#icon-od"></use></svg>
+      </a>
+      [/odnoklassniki]
+      [mailru]
+      <a href="{mailru_url}" target="_blank" class="soc_mail">
+        <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
+      </a>
+      [/mailru]
+    </div>
+    <input name="login" type="hidden" id="login" value="submit">
+    <div class="login_form_links">
+      <a href="{registration-link}">Registration</a>
+      <a href="{lostpassword-link}">Forgot password?</a>
+    </div>
+  </div>
+</form>
+[/group]
