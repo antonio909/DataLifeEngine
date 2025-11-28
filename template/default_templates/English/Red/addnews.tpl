@@ -71,3 +71,37 @@
             {fullarea}
           </li>
           [/allow-fullstory]
+          <li class="form-group">
+            {xfields}
+          </li>
+          <li class="form-group">
+            <label for="alt_name">Keywords for a Tag Cloud</label>
+            <input placeholder="Enter comma separated" type="text" name="tags" id="tags" value="{tags}" maxlength="150" autocomplete="off" class="wide">
+          </li>
+          <li class="form-group">
+            <div class="admin_checkboxs">{admintag}</div>
+          </li>
+          [recaptcha]
+          <li class="form-group">{recaptcha}</li>
+          [/recaptcha]
+          [question]
+          <li class="form-group">
+            <label for="question_answer">{question}</label>
+            <input placeholder="Enter Answer" type="text" name="question_answer" id="question_answer" class="wide" required>
+          </li>
+          [/question]
+        </ul>
+        <p style="margin: 20px 0 0 0;" class="grey"><span style="color: #e85319;">*</span> - fields marked with asterisk are required.</p>
+        <div class="form_submit">
+          [sec_code]
+          <div class="c-capcha">
+            {sec_code}
+            <input placeholder="Enter the code" title="Enter the code from the image" type="text" name="sec_code" id="sec_code" required>
+          </div>
+          [/sec_code]
+          <button class="btn" type="submit" name="add"><b class="ultrabold">Send</b></button>
+          <button id="add_news_preview" class="btn btn_border" onclick="preview();" type="submit" name="nview"><b class="ultrabold">Preview</b></button>
+        </div>
+      </div>
+    </div>
+</article>
