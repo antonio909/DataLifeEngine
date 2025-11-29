@@ -68,3 +68,33 @@
               [/group]
               <li class="form-group">{ignore-list}</li>
               <li class="form-group"><div class="user_fields">{xfields}</div></li>
+              <li class="form-group">
+                <fieldset>
+                  <legend>Linking you account to social networks:</legend>
+                  <div class="soc_links">
+                    [vk]<a href="{vk_url}" target="_blank" class="soc_vk"><svg class="icon icon-vk"><use xlink:href="#icon-vk"></use></svg></a>[/vk]
+                    [yandex]<a href="{yandex_url}" target="_blank" class="soc_ya"><svg class="icon icon-ya"><use xlink:href="#icon-ya"></use></svg></a>[/yandex]
+                    [facebook]<a href="{facebook_url}" target="_blank" class="soc_fb"><svg class="icon icon-fb"><use xlink:href="#icon-fb"></use></svg></a>[/facebook]
+                    [google]<a href="{google_url}" target="_blank" class="soc_gp"><svg class="icon icon-gp"><use xlink:href="#icon-gp"></use></svg></a>[/google]
+                    [odnoklassniki]<a href="{odnoklassniki_url}" target="_blank" class="soc_od"><svg class="icon icon-od"><use xlink:href="#icon-od"></use></svg></a>[/odnoklassniki]
+                    [mailru]<a href="{mailru_url}" target="_blank" class="soc_mail"><svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg></a>[/mailru]
+                  </div>
+                </fieldset>
+              </li>
+              <li class="form-group"><fieldset><legend>A list of the linked social networkin:</legend>{social-list}</fieldset></li>
+              <li class="form-group"><div class="checkbox">{news-subscribe}</div></li>
+              <li class="form-group"><div class="checkbox">{comments-reply-subscribe}</div></li>
+              <li class="form-group"><div class="checkbox">{unsubscribe}</div></li>
+            </ul>
+            <div class="form_submit">
+              <button class="btn btn-big" name="submit" type="submit"><b>Save</b></button>
+              [delete]<b>Delete Account</b>[/delete]
+              <input name="submit" type="hidden" id="submit" value="submit">
+            </div>
+          </div>
+        </div>
+      </div>
+      [/not-logged]
+    </div>
+  </div>
+</div>
