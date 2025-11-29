@@ -1,0 +1,52 @@
+@import url(../../templates/red/fonts/font.css);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+article, aside, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+html, html a { -webkit-font-smoothing: antialiased; }
+
+body, select, input, textarea, button { font: normal 15px/1.5 "GothaPro", Arial, Helvetica, sans-serif; letter-spacing: 0.008em; color: #444; outline: none; }
+a { outline: none; color: #ff485b; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a img { border: 0 none; }
+a > img { vertical-align: bottom; }
+
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 { margin: 2em 0 .8em 0; letter-spacing: -0.01em; line-height: 1.35em; font-weight: bold; text-rendering: optimizeLegibility; }
+h1, .h1 { font-size: 2em; }
+h2, .h2 { font-size: 1.9em; }
+h3, .h3 { font-size: 1.6em; }
+h4, .h4 { font-size: 1.5em; }
+h5, .h5 { font-size: 1.2em; }
+
+.strike { text-decoration: line-through; }
+.nobr { white-space: nowrap; }
+.hide { display: none; }
+.title_hide { left: -9999px; position: absolute; top: -9999px; overflow: hidden; width: 0; height: 0; }
+.uline { text-decoration: underline; }
+.strike { text-decoration: line-through; }
+.ultrabold { font-weight: 900; text-transform: uppercase; }
+
+.justify { text-align: justify; }
+.center { text-align: center; }
+.left { float: left; }
+.right { float: right; }
+fieldset { border: 1px solid rgba(0,0,0,0.1); padding: 15px; margin-bottom: 1.5em; }
+fieldset legend { font-weight: bold; }
+
+.grey { color: #94999e; }
+.grey a { color: inherit; }
+.grey a:hover, a.grey:hover { color: #444; }
+
+.red { color: #ff485b; }
+
+sup { vertical-align: super; font-size: smaller; }
+.over { display: inline-block; vertical-align: middle; max-width: 100%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+a .over { cursor: pointer; }
+
+.cover { background-position: 50% 50%; background-repeat: no-repeat; -webkit-background-size: cover; background-size: cover; }
