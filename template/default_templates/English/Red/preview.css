@@ -141,3 +141,5 @@ body { background: #ededed; }
 .fullstory_foot { background-color: #f8f8f8; }
 
 .emoji { border: none; vertical-align: middle; width: 22px; height: 22px; }
+
+.xfieldimagegallery { margin: 0; padding: 0; list-style: none; clear: both; }
